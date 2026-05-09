@@ -21,10 +21,10 @@ function IdCard(props) {
           <strong>Height:</strong>
           <span> {(props.height / 100).toFixed(2)}m</span>
         </div>
-      </div>
-      <div>
-        <strong>Birth:</strong>
-        <span> {props.birth.toDateString()}</span>
+        <div>
+          <strong>Birth:</strong>
+          <span> {props.birth.toDateString()}</span>
+        </div>
       </div>
     </div>
   );

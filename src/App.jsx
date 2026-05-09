@@ -1,4 +1,5 @@
 import "./App.css";
+import Greetings from "./components/greetings/greetings";
 import IdCard from "./components/id-card/id-card";
 
 function App() {
@@ -16,13 +17,16 @@ function App() {
       />
 
       <IdCard
-        lastName="Delores "
-        firstName="Obrien"
+        lastName="Despalda"
+        firstName="Delores"
         gender="female"
         height={172}
         birth={new Date("1988-05-11")}
         picture="https://randomuser.me/api/portraits/women/44.jpg"
       />
+
+      <Greetings lang="de">Ludwig</Greetings>
+      <Greetings lang="fr">François</Greetings>
     </div>
   );
 }
